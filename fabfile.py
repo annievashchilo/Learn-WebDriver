@@ -25,7 +25,6 @@ def go(script):
 
 @task
 def stop_build_deploy():
-    run("ssh hvashchilo@hvashchilo-vm.inca.infoblox.com")
     run("killscreens")
 
 @task
